@@ -7,7 +7,12 @@ This project develops a natural language processing (NLP) model to classify and 
 ## Features
 
 Slang Identification: Detects and highlights slang terms used by Generation Z (features spaCy NER).
+
 Contextual Understanding: Interprets slang within the context it's used (in this case, I used reddit posts from a teenagers thread and reddit posts from an adult advice thread) to provide accurate meanings.
+
 Custom spaCy Pipeline: Integrates custom components into the spaCy pipeline for tailored processing of Generation Z slang.
+
 Model Training & Evaluation: Involves training the roBERTa classifier through spaCy with annotated datasets and evaluating its performance.
+
 Interactive Interface: A CLI for testing and interacting with the classifier.
+
